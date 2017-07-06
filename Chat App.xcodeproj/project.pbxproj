@@ -17,6 +17,8 @@
 		2A60019D1F0807B900BF62CA /* customChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60019C1F0807B900BF62CA /* customChatCell.swift */; };
 		2A8837731F0E27F10036B594 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8837721F0E27F10036B594 /* LoginVC.swift */; };
 		2A8837751F0E28020036B594 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8837741F0E28020036B594 /* SignUpVC.swift */; };
+		2A8837771F0E73590036B594 /* ChatDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8837761F0E73590036B594 /* ChatDetailVC.swift */; };
+		2A8837791F0E747B0036B594 /* CustomChatDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8837781F0E747B0036B594 /* CustomChatDetailCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		2A60019C1F0807B900BF62CA /* customChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customChatCell.swift; sourceTree = "<group>"; };
 		2A8837721F0E27F10036B594 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		2A8837741F0E28020036B594 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		2A8837761F0E73590036B594 /* ChatDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatDetailVC.swift; sourceTree = "<group>"; };
+		2A8837781F0E747B0036B594 /* CustomChatDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomChatDetailCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +109,11 @@
 			children = (
 				2A60016E1F08049D00BF62CA /* AppDelegate.swift */,
 				2A6001701F08049D00BF62CA /* ViewController.swift */,
+				2A8837781F0E747B0036B594 /* CustomChatDetailCell.swift */,
 				2A60019C1F0807B900BF62CA /* customChatCell.swift */,
 				2A8837721F0E27F10036B594 /* LoginVC.swift */,
 				2A8837741F0E28020036B594 /* SignUpVC.swift */,
+				2A8837761F0E73590036B594 /* ChatDetailVC.swift */,
 				2A6001721F08049D00BF62CA /* Main.storyboard */,
 				2A6001751F08049D00BF62CA /* Assets.xcassets */,
 				2A6001771F08049D00BF62CA /* LaunchScreen.storyboard */,
@@ -271,7 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A8837791F0E747B0036B594 /* CustomChatDetailCell.swift in Sources */,
 				2A6001711F08049D00BF62CA /* ViewController.swift in Sources */,
+				2A8837771F0E73590036B594 /* ChatDetailVC.swift in Sources */,
 				2A60016F1F08049D00BF62CA /* AppDelegate.swift in Sources */,
 				2A8837731F0E27F10036B594 /* LoginVC.swift in Sources */,
 				2A8837751F0E28020036B594 /* SignUpVC.swift in Sources */,
