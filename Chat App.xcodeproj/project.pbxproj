@@ -15,6 +15,8 @@
 		2A6001841F08049D00BF62CA /* Chat_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6001831F08049D00BF62CA /* Chat_AppTests.swift */; };
 		2A60018F1F08049D00BF62CA /* Chat_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60018E1F08049D00BF62CA /* Chat_AppUITests.swift */; };
 		2A60019D1F0807B900BF62CA /* customChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60019C1F0807B900BF62CA /* customChatCell.swift */; };
+		2A8837731F0E27F10036B594 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8837721F0E27F10036B594 /* LoginVC.swift */; };
+		2A8837751F0E28020036B594 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8837741F0E28020036B594 /* SignUpVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2A60018E1F08049D00BF62CA /* Chat_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat_AppUITests.swift; sourceTree = "<group>"; };
 		2A6001901F08049D00BF62CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A60019C1F0807B900BF62CA /* customChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customChatCell.swift; sourceTree = "<group>"; };
+		2A8837721F0E27F10036B594 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		2A8837741F0E28020036B594 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				2A60016E1F08049D00BF62CA /* AppDelegate.swift */,
 				2A6001701F08049D00BF62CA /* ViewController.swift */,
 				2A60019C1F0807B900BF62CA /* customChatCell.swift */,
+				2A8837721F0E27F10036B594 /* LoginVC.swift */,
+				2A8837741F0E28020036B594 /* SignUpVC.swift */,
 				2A6001721F08049D00BF62CA /* Main.storyboard */,
 				2A6001751F08049D00BF62CA /* Assets.xcassets */,
 				2A6001771F08049D00BF62CA /* LaunchScreen.storyboard */,
@@ -267,6 +273,8 @@
 			files = (
 				2A6001711F08049D00BF62CA /* ViewController.swift in Sources */,
 				2A60016F1F08049D00BF62CA /* AppDelegate.swift in Sources */,
+				2A8837731F0E27F10036B594 /* LoginVC.swift in Sources */,
+				2A8837751F0E28020036B594 /* SignUpVC.swift in Sources */,
 				2A60019D1F0807B900BF62CA /* customChatCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,6 +528,7 @@
 				2A6001951F08049D00BF62CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A6001961F08049D00BF62CA /* Build configuration list for PBXNativeTarget "Chat AppTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +537,7 @@
 				2A6001981F08049D00BF62CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A6001991F08049D00BF62CA /* Build configuration list for PBXNativeTarget "Chat AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +546,7 @@
 				2A60019B1F08049D00BF62CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
